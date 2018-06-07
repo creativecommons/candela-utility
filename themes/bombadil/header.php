@@ -121,7 +121,7 @@
 							<div class="sub-nav-subtext"><?php echo get_the_title( $post->post_parent ); ?></div>
 						<?php } ?>
 
-						<?php if ( show_search() ) { ?>
+						<?php if ( false /*show_search()*/ ) { ?>
 							<!-- Search Field -->
 							<div class="sub-nav-searchform"><?php get_search_form(); ?></div>
 						<?php } ?>
