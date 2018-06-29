@@ -18,7 +18,7 @@
                   <span class="book-header__license__text license-text"><?php echo \Pressbooks\Book\Helpers\license_to_text( $license ); ?></span>
 </div>-->
 <div class="book-header__cta">
-<a class="call-to-action" href="<?php echo $first_chapter; ?>">
+<a class="call-to-action" href="<?php echo pb_get_first(); ?>">
 Read Book </a> </div>
 </div>
 </section>
